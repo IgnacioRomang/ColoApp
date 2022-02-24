@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="monto_inicial">Monto Inicial</string>
+    <string name="formulario">Formulario</string>
+    <string name="resultado">Resultado</string>
+    <string name="activo">Activo</string>
+    <string name="datos">Datos</string>
+    <string name="calendario">Calendario</string>
+</resources>

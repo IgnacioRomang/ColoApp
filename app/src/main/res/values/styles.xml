@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="ShapeAppearance.App.SmallComponent.cut" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+    <style name="ShapeAppearance.App.MediumComponent.cut" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="ShapeAppearance.App.LargeComponent.cut" parent="">
+        <item name="cornerFamilyTopLeft">cut</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+    </style>
+
+    <style name="Widget.App.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+
+
+    <!-- TEXT TEMAS-->
+    <style name="h1headline" >
+        <item name="android:fontFamily">@font/rubiklight</item>
+        <item name="android:textSize">96dp</item>
+    </style>
+    <style name="h2headline" >
+        <item name="android:fontFamily">@font/rubiklight</item>
+        <item name="android:textSize">60dp</item>
+    </style>
+    <style name="h3headline" >
+        <item name="android:fontFamily">@font/rubikregular</item>
+        <item name="android:textSize">48dp</item>
+    </style>
+    <style name="h4headline" >
+        <item name="android:fontFamily">@font/rubikregular</item>
+        <item name="android:textSize">34dp</item>
+    </style>
+    <style name="h5headline" >
+        <item name="android:fontFamily">@font/rubikmedium</item>
+        <item name="android:textSize">24dp</item>
+    </style>
+    <style name="h6headline" >
+        <item name="android:fontFamily">@font/rubikmedium</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="body1" >
+        <item name="android:fontFamily">@font/rubikregular</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="body2" >
+        <item name="android:fontFamily">@font/rubikregular</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="button">
+        <item name="android:fontFamily">@font/rubikmedium</item>
+        <item name="android:textSize">14dp</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+    </style>
+    <style name="caption">
+        <item name="android:fontFamily">@font/rubikregular</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+    <style name="overline">
+        <item name="android:fontFamily">@font/rubikregular</item>
+        <item name="android:textSize">14dp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+</resources>

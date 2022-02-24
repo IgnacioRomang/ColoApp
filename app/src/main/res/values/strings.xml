@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ColoApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="monto_inicial">Monto Inicial</string>
+    <string name="reload">Reload</string>
+    <string name="formulario">Formulario</string>
+    <string name="resultado">Resultado</string>
+    <string name="activo">Activo</string>
+    <string name="datos">Datos</string>
+    <string name="textview">TextView</string>
+    <string name="horario">Horario</string>
+    <string name="calendario">Calendario</string>
+</resources>
