@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:shape="rectangle">
+    android:shape="rectangle"
+    app:shapeAppearance="@style/ShapeAppearance.App.LargeComponent.cut">
     <solid
-        android:color="@color/md_teal_300"/>
-    <corners android:radius="12dp"/>
+        android:color="@color/md_teal_700" />
     <padding
         android:left="10dp"
         android:top="10dp"
         android:right="10dp"
         android:bottom="10dp" />
 </shape>
-

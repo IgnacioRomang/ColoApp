@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryLightColor">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cakeCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="64dp"
+        android:elevation="6dp"
+        app:cardBackgroundColor="?attr/cardBackgroundColorMediun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearance.App.MediumComponent.cut">
+
+        <com.androidplot.pie.PieChart
+            android:id="@+id/winRateChart"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:backgroundColor="?attr/cardBackgroundColorMediun"
+            app:borderColor="@color/ap_transparent"
+            app:pieBorderThickness="0dp"
+            tools:ignore="MissingConstraints" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="428dp"
+        android:elevation="6dp"
+        app:cardBackgroundColor="?attr/cardBackgroundColorMediun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearance.App.MediumComponent.cut">
+
+        <com.androidplot.pie.PieChart
+            android:id="@+id/profitRatio"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:backgroundColor="?attr/cardBackgroundColorMediun"
+            app:borderColor="@color/ap_transparent"
+            app:pieBorderThickness="0dp"
+            tools:ignore="MissingConstraints" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="721dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:elevation="6dp"
+        app:cardBackgroundColor="?attr/cardBackgroundColorBig"
+        app:layout_constraintStart_toEndOf="@+id/cakeCard"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearance.App.LargeComponent.cut">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.androidplot.xy.XYPlot
+                android:id="@+id/xyGrafico"
+                android:layout_width="1000dp"
+                android:layout_height="570dp"
+                android:layout_marginStart="8dp"
+                app:backgroundColor="?attr/cardBackgroundColorBig"
+                app:borderColor="@color/ap_transparent"
+                app:domainStep="1"
+                app:domainStepMode="increment_by_val"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lineLabelAlignBottom="right"
+                app:lineLabelAlignLeft="left"
+                app:lineLabels="left|bottom"
+                app:rangeStepMode="increment_by_val"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rango"
+                android:textAppearance="@style/body2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/xyGrafico"
+                tools:ignore="MissingConstraints" />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/rangerSlider"
+                android:layout_width="1000dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:stepSize="10.0"
+                android:valueFrom="0.0"
+                android:valueTo="100.0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView3"
+                app:trackColorActive="?attr/colorSeekbar"
+                app:values="@array/initial_slider_values" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,11 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/drawable/shape.xml" value="0.2" />
+        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/drawable/shapecut.xml" value="0.217" />
         <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/font/frontf.xml" value="0.12005208333333334" />
         <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout-land/activity_main.xml" value="0.16510416666666666" />
-        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout-land/fragment_add_investment.xml" value="0.15" />
-        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout/activity_main.xml" value="0.10494791666666667" />
-        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout/fragment_add_investment.xml" value="0.2035623409669211" />
+        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout-land/fragment_add_investment.xml" value="0.18" />
+        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout-land/fragment_estadisticas.xml" value="0.13" />
+        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout/add_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout/fragment_add_investment.xml" value="0.1" />
+        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout/fragment_estadisticas.xml" value="0.10166666666666667" />
+        <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/layout/navigation_rail_fab.xml" value="0.25" />
         <entry key="..\:/Users/Ignac/AndroidStudioProjects/ColoApp/app/src/main/res/menu/nav_menu.xml" value="0.10494791666666667" />
       </map>
     </option>

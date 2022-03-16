@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cardBackgroundColorSmall" format="reference"/>
+    <attr name="cardBackgroundColorMediun" format="reference"/>
+    <attr name="cardBackgroundColorBig" format="reference"/>
+    <attr name="navigationRailColor" format="reference"/>
+    <attr name="backgroundColoreddit" format="reference"/>
+    <attr name="backgroundColorButtonOk" format="reference"/>
+    <attr name="backgroundColorButtonSad" format="reference"/>
+    <attr name="colorSeekbar" format="reference"/>
+    <attr name="colorSeekbarDot" format="reference"/>
+</resources>

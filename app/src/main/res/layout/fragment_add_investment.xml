@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primaryColor"
-    tools:context=".AddInvestment">
+    android:background="@color/primaryLightColor"
+    tools:context=".fragments.AddInvestment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -17,8 +17,8 @@
             android:id="@+id/materialCardView"
             android:layout_width="380dp"
             android:layout_height="500dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="50dp"
             android:rotation="-5"
             app:cardBackgroundColor="@color/white"
             app:layout_constraintStart_toStartOf="parent"
@@ -132,13 +132,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="54dp"
+            android:layout_marginTop="180dp"
             android:layout_marginEnd="100dp"
             android:rotation="8"
-            app:cardBackgroundColor="@color/secondaryLightColor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/materialCardView"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="91dp">
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -198,7 +198,7 @@
             android:layout_width="600dp"
             android:layout_height="380dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="80dp"
             android:layout_marginEnd="24dp"
             app:cardBackgroundColor="@color/brouwn_200"
             app:layout_constraintEnd_toEndOf="parent"

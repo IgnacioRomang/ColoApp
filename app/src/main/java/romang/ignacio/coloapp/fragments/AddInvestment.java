@@ -1,4 +1,4 @@
-package romang.ignacio.coloapp;
+package romang.ignacio.coloapp.fragments;
 
 import android.os.Bundle;
 
@@ -8,11 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link AddInvestment#newInstance} factory method to
- * create an instance of this fragment.
- */
+import romang.ignacio.coloapp.R;
+
+
 public class AddInvestment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match

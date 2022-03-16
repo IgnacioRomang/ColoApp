@@ -6,4 +6,8 @@
     <string name="activo">Activo</string>
     <string name="datos">Datos</string>
     <string name="calendario">Calendario</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="estadisticas">Estadisticas</string>
+    <string name="historial">Historial</string>
+    <string name="datePicker">Seleccione Fechas</string>
 </resources>
